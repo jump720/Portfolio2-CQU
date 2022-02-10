@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio 1</title>
+	<link rel="stylesheet" href="./styles.css" />
+	<script src="./index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div class="topBar">
+			</p>
+		</div>
+		<div class="logo">
+			<a href="/">
+				<img src="./assets/logo.png" alt="Logo" class="logoMain"/>
+			</a>
+		</div>
+		<div class="menu">
+			<input type="checkbox" name="" id="">
+			<div class="hamburger-lines">
+				<span class="line line1"></span>
+				<span class="line line2"></span>
+				<span class="line line3"></span>
+			</div>
+			<ul id="topMenu" class="topMenu">
+			</ul>
+		</div>
+	</header>
+	<div class="content">
+		<div class="flexColumn">
+			<div class="titlePage" id="titlePage">
+				<h1>Contact us</h1>
+			</div>
+			<div class="contentContact">
+				<div class="formContact">
+
+					<div class="card w-500">
+						<div class="cardContainer spacer-5">
+							<h2>Enter your details</h2>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Full Name</span>
+								<input type="text" placeholder="Enter your Name" id="contactNameField">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Age</span>
+								<input type="text" placeholder="Enter your Age">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Gender</span>
+								<input type="text" placeholder="Enter your Gender">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Country</span>
+								<input type="text" placeholder="Enter your Country of Origin">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Personal Interest</span>
+								<input type="text" placeholder="Enter your Personal Interest">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Comments</span>
+								<textarea type="text" rows="5" placeholder="Enter your Comments"></textarea>
+							</div>
+							<div class="flexRow grid-2">
+								<br> <input type="button" class="submit padding-5" value="Send" onclick="submitForm(`Contacting Us ${document.getElementById('contactNameField').value}`)">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="informationContact padding-10">
+					<ul>
+						<li>Phone: 01800 123 456<p>
+						</li>
+						<li>Address: 160 Ann St, Brisbane City QLD 4000<p>
+						</li>
+						<li>Mon - Thur : 10:00am to 4:00pm</li>
+						<li>Fri : 10:00am to 1:00pm, 2:00pm to 6:00pm</li>
+						<li>Sat : 8:00am to 4:00pm</li>
+						<li>Sun : Closed</li>
+						<li>Public Holidays: Closed</li>
+					</ul>
+					<div class="spacer-5">
+						<div class="mapouter">
+							<div class="gmap_canvas"><iframe width="350" height="350" id="gmap_canvas"
+									src="https://maps.google.com/maps?q=160%20Ann%20St,%20Brisbane%20City%20QLD%204000&t=&z=13&ie=UTF8&iwloc=&output=embed"
+									frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+									href="https://123movies-to.org"></a><br>
+								<style>
+									.mapouter {
+										position: relative;
+										text-align: right;
+										height: 350px;
+										width: 350px;
+									}
+								</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+								<style>
+									.gmap_canvas {
+										overflow: hidden;
+										background: none !important;
+										height: 350px;
+										width: 350px;
+									}
+								</style>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footerContainer">
+			<div class="logoFooter">
+				<img src="../assets/logo.png" alt="Logo" />
+			</div>
+			<div class="footerLinks">
+				<h2>Menu</h2>
+				<ul id="footerMenu">
+				</ul>
+			</div>
+			<div class="contactUs">
+				<h2>Shop Opening Hours:</h2>
+				<ul>
+					<li>Mon - Thur : 10:00am to 4:00pm</li>
+					<li>Fri : 10:00am to 1:00pm, 2:00pm to 6:00pm</li>
+					<li>Sat : 8:00am to 4:00pm</li>
+					<li>Sun : Closed</li>
+					<li>Public Holidays: Closed<p></li>
+					<li>Phone: 01800 123 456<p></li>
+				</ul>
+			</div>
+			<div class="suscribeNewsletter">
+				<a href="./newsletter.html"><h2> Join our Newsletter</h2></a>
+				<div class="inLine"></div>
+				<div class="socialLogo">
+					<a href="https://www.facebook.com/" target="_blank"><img src="../assets/facebook.png"
+							alt="Facebook"></a>
+					<a href="https://www.instagram.com/" target="_blank"><img src="../assets/instagram.png"
+							alt="Instagram"></a>
+					<a href="https://www.youtube.com/" target="_blank"><img src="../assets/youtube.png"
+							alt="Youtube"></a>
+				</div>
+			</div>
+		</div>
+		<div class="bottomBar">
+			<div class="textRights" id="textRights"></div>
+		</div>
+	</footer>
+</body>
+
+</html>

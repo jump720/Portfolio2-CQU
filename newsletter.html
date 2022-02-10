@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio 1</title>
+	<link rel="stylesheet" href="./styles.css" />
+	<script src="./index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div class="topBar">
+			</p>
+		</div>
+		<div class="logo">
+			<a href="/">
+				<img src="./assets/logo.png" alt="Logo" class="logoMain"/>
+			</a>
+		</div>
+		<div class="menu">
+			<input type="checkbox" name="" id="">
+			<div class="hamburger-lines">
+				<span class="line line1"></span>
+				<span class="line line2"></span>
+				<span class="line line3"></span>
+			</div>
+			<ul id="topMenu" class="topMenu">
+			</ul>
+		</div>
+	</header>
+	<div class="content">
+		<div class="flexColumn">
+			<div class="titlePage" id="titlePage">
+				<h1>Newsletter</h1>
+			</div>
+			<div class="contentContact">
+				<div class="formNewsletter" id="newsletterContainer">
+					<div class="card w-400">
+						<div class="cardContainer spacer-5">
+							<h4>To suscribe to our newsletter please enter your contact details:</h4>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Name</span>
+								<input type="text" placeholder="Enter your Name" id="newsletterName">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Age</span>
+								<input type="text" placeholder="Enter your Age" id="newsletterAge">
+							</div>
+							<div class="flexRow grid-2">
+								<span class="pr-9 text-right">Email</span>
+								<input type="text" placeholder="Enter your Email" id="newsletterEmail">
+							</div>
+							<div class="flexRow grid-2">
+								<br> <input type="button" class="submit padding-5" value="Send" onclick="submitNewsletter()">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footerContainer">
+			<div class="logoFooter">
+				<img src="../assets/logo.png" alt="Logo" />
+			</div>
+			<div class="footerLinks">
+				<h2>Menu</h2>
+				<ul id="footerMenu">
+				</ul>
+			</div>
+			<div class="contactUs">
+				<h2>Shop Opening Hours:</h2>
+				<ul>
+					<li>Mon - Thur : 10:00am to 4:00pm</li>
+					<li>Fri 	   : 10:00am to 1:00pm, 2:00pm to 6:00pm</li>
+					<li>Sat 	   : 8:00am  to 4:00pm</li>
+					<li>Sun 	   : Closed</li>
+					<li>Public Holidays: Closed<p></li>
+					<li>Phone: 01800 123 456<p></li>
+				</ul>
+			</div>
+			<div class="suscribeNewsletter">
+				<a href="./newsletter.html"><h2> Join our Newsletter</h2></a>
+				<div class="inLine"></div>
+				<div class="socialLogo">
+					<a href="https://www.facebook.com/" target="_blank"><img src="../assets/facebook.png"
+							alt="Facebook"></a>
+					<a href="https://www.instagram.com/" target="_blank"><img src="../assets/instagram.png"
+							alt="Instagram"></a>
+					<a href="https://www.youtube.com/" target="_blank"><img src="../assets/youtube.png"
+							alt="Youtube"></a>
+				</div>
+			</div>
+		</div>
+		<div class="bottomBar">
+			<div class="textRights" id="textRights"></div>
+		</div>
+	</footer>
+</body>
+
+</html>
