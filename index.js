@@ -6,23 +6,23 @@ const links = [
 	// },
 	{
 		text: 'Playing Cards',
-		link: '/areas.html#playingcards',
+		link: 'areas.html#playingcards',
 	},
 	{
 		text: 'Lego Models',
-		link: '/areas.html#legomodels',
+		link: 'areas.html#legomodels',
 	},
 	{
 		text: 'Board Games',
-		link: '/areas.html#boardgames',
+		link: 'areas.html#boardgames',
 	},
 	{
 		text: 'RC Toys',
-		link: '/areas.html#rctoys',
+		link: 'areas.html#rctoys',
 	},
 	{
-		text: 'Contact',
-		link: '/contact.html',
+		text: 'Contact Us',
+		link: 'contact.html',
 	},
 ];
 
@@ -34,49 +34,49 @@ const areas = [
 			{
 				name: 'Buldozer',
 				productLink: '#rc1',
-				photoLink: '../assets/rc_toys/rc1.jpeg',
+				photoLink: './assets/rc_toys/rc1.jpeg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'T-Rex',
 				productLink: '#rc2',
-				photoLink: '../assets/rc_toys/rc2.jpg',
+				photoLink: './assets/rc_toys/rc2.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Patrol Boat',
 				productLink: '#rc3',
-				photoLink: '../assets/rc_toys/rc3.jpg',
+				photoLink: './assets/rc_toys/rc3.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Quad Copter',
 				productLink: '#rc4',
-				photoLink: '../assets/rc_toys/rc4.jpg',
+				photoLink: './assets/rc_toys/rc4.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Tank',
 				productLink: '#rc5',
-				photoLink: '../assets/rc_toys/rc5.jpg',
+				photoLink: './assets/rc_toys/rc5.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Boxing Robots',
 				productLink: '#rc6',
-				photoLink: '../assets/rc_toys/rc6.jpg',
+				photoLink: './assets/rc_toys/rc6.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Stunt Plane',
 				productLink: '#rc7',
-				photoLink: '../assets/rc_toys/rc7.jpg',
+				photoLink: './assets/rc_toys/rc7.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Submarine',
 				productLink: '#rc8',
-				photoLink: '../assets/rc_toys/rc8.jpg',
+				photoLink: './assets/rc_toys/rc8.jpg',
 				price: '$ 9.99',
 			},
 		],
@@ -88,43 +88,43 @@ const areas = [
 			{
 				name: 'Java',
 				productLink: '#bg1',
-				photoLink: '../assets/board_games/bg1.jpg',
+				photoLink: './assets/board_games/bg1.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: "Memoir'44",
 				productLink: '#bg2',
-				photoLink: '../assets/board_games/bg2.jpg',
+				photoLink: './assets/board_games/bg2.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Monopoly',
 				productLink: '#bg3',
-				photoLink: '../assets/board_games/bg3.jpg',
+				photoLink: './assets/board_games/bg3.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Scrabble',
 				productLink: '#bg4',
-				photoLink: '../assets/board_games/bg4.jpg',
+				photoLink: './assets/board_games/bg4.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Shogun',
 				productLink: '#bg5',
-				photoLink: '../assets/board_games/bg5.jpg',
+				photoLink: './assets/board_games/bg5.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Ticket to Ride',
 				productLink: '#bg6',
-				photoLink: '../assets/board_games/bg6.jpg',
+				photoLink: './assets/board_games/bg6.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Tikal',
 				productLink: '#bg7',
-				photoLink: '../assets/board_games/bg7.jpg',
+				photoLink: './assets/board_games/bg7.jpg',
 				price: '$ 9.99',
 			},
 		],
@@ -136,43 +136,43 @@ const areas = [
 			{
 				name: 'Sydney Opera House',
 				productLink: '#lg1',
-				photoLink: '../assets/lego_models/lg1.jpg',
+				photoLink: './assets/lego_models/lg1.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Finger Sculpture',
 				productLink: '#lg2',
-				photoLink: '../assets/lego_models/lg2.jpg',
+				photoLink: './assets/lego_models/lg2.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Superman',
 				productLink: '#lg3',
-				photoLink: '../assets/lego_models/lg3.jpg',
+				photoLink: './assets/lego_models/lg3.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Ironman',
 				productLink: '#lg4',
-				photoLink: '../assets/lego_models/lg4.jpg',
+				photoLink: './assets/lego_models/lg4.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Ferrari',
 				productLink: '#lg5',
-				photoLink: '../assets/lego_models/lg5.jpg',
+				photoLink: './assets/lego_models/lg5.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Vintage Car',
 				productLink: '#lg6',
-				photoLink: '../assets/lego_models/lg6.jpg',
+				photoLink: './assets/lego_models/lg6.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Locomotive',
 				productLink: '#lg7',
-				photoLink: '../assets/lego_models/lg7.jpg',
+				photoLink: './assets/lego_models/lg7.jpg',
 				price: '$ 9.99',
 			},
 		],
@@ -184,43 +184,43 @@ const areas = [
 			{
 				name: 'Bicycle',
 				productLink: '#cd1',
-				photoLink: '../assets/playing_cards/cd1.jpg',
+				photoLink: './assets/playing_cards/cd1.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Nomad',
 				productLink: '#cd2',
-				photoLink: '../assets/playing_cards/cd2.jpg',
+				photoLink: './assets/playing_cards/cd2.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Sentinels',
 				productLink: '#cd3',
-				photoLink: '../assets/playing_cards/cd3.jpg',
+				photoLink: './assets/playing_cards/cd3.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Tycoon',
 				productLink: '#cd4',
-				photoLink: '../assets/playing_cards/cd4.jpg',
+				photoLink: './assets/playing_cards/cd4.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Artisans',
 				productLink: '#cd5',
-				photoLink: '../assets/playing_cards/cd5.jpg',
+				photoLink: './assets/playing_cards/cd5.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Union',
 				productLink: '#cd6',
-				photoLink: '../assets/playing_cards/cd6.jpg',
+				photoLink: './assets/playing_cards/cd6.jpg',
 				price: '$ 9.99',
 			},
 			{
 				name: 'Steam Punk',
 				productLink: '#cd7',
-				photoLink: '../assets/playing_cards/cd7.jpg',
+				photoLink: './assets/playing_cards/cd7.jpg',
 				price: '$ 9.99',
 			},
 		],
@@ -399,14 +399,14 @@ function loadProduct() {
 		let breadcrumbsContainer = document.getElementById('breadcrumbs');
 		let linkHome = document.createElement('a');
 		let textHome = document.createTextNode('> Home');
-		linkHome.href = '/';
+		linkHome.href = './index.html';
 		linkHome.appendChild(textHome);
 		breadcrumbsContainer.appendChild(linkHome);
 
 		// link category
 		let linkCategory = document.createElement('a');
 		let textCat = document.createTextNode(` > ${areaData.areaTitle}`);
-		linkCategory.href = `../areas.html#${areaData.areaID}`;
+		linkCategory.href = `./areas.html#${areaData.areaID}`;
 		linkCategory.appendChild(textCat);
 		breadcrumbsContainer.appendChild(linkCategory);
 
@@ -425,9 +425,13 @@ function loadProduct() {
 }
 
 function reloadpage(link) {
-	window.location.replace(link);
-	let reload = link.includes(window.location.pathname);
-	if (link?.includes('#') && window.location.hash !== '' && reload) {
+	let page = window.location.pathname;
+	let newLink = window.location.href.split("#")[0];
+	newlink = newLink.replace(page.split("/").pop(), '') + link;
+
+	window.location.replace(newlink);
+	let reload = newlink.includes(window.location.pathname);
+	if (newlink?.includes('#') && window.location.hash !== '' && reload) {
 		location.reload();
 	}
 }
